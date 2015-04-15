@@ -46,11 +46,24 @@ findViewById(R.id.attach).setOnClickListener(new View.OnClickListener() {
 
 ```
 
-How to add dependency
+Adding dependencies
 =====================
 
-Soon
+Gradle:
+```groovy
+dependencies {
+	compile 'com.github.alexkolpa:floating-action-button-toolbar:0.5.0'
+}
+```
 
+Maven:
+```xml
+<dependency>
+	<groupId>com.github.alexkolpa</groupId>
+	<artifactId>floating-action-button-toolbar</artifactId>
+	<version>0.5.0</version>
+</dependency>
+```
 
 License
 --------
