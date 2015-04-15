@@ -1,4 +1,4 @@
-package com.alexkolpa.fabtoolbar;
+package com.github.alexkolpa.fabtoolbar;
 
 import android.content.Context;
 import android.content.res.TypedArray;

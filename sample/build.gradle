@@ -17,7 +17,7 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "com.alexkolpa.fabtoolbar.sample"
+        applicationId "com.github.alexkolpa.fabtoolbar.sample"
         minSdkVersion 10
         targetSdkVersion 21
         versionCode 1

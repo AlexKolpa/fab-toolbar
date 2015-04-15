@@ -14,7 +14,7 @@
 			android:layout_height="match_parent"
 			/>
 
-	<com.alexkolpa.fabtoolbar.FabToolbar
+	<com.github.alexkolpa.fabtoolbar.FabToolbar
 			android:id="@+id/fab_toolbar"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
@@ -50,6 +50,6 @@
 				android:layout_marginRight="@dimen/icon_margin"
 				/>
 
-	</com.alexkolpa.fabtoolbar.FabToolbar>
+	</com.github.alexkolpa.fabtoolbar.FabToolbar>
 
 </FrameLayout>
