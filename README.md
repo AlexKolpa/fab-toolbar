@@ -1,11 +1,11 @@
 Floating Action Button Toolbar
 ==============================
 
-Provides the newly released FAB toolbar in a simple library.
+Provides the Floating Action Button Toolbar [as specified in the Material Design Guide](http://www.google.com/design/spec/components/buttons-floating-action-button.html#buttons-floating-action-button-transitions) in a simple library.
 
 ![demo](https://cloud.githubusercontent.com/assets/3596362/7158276/a4883268-e378-11e4-9918-78d071ac7a97.gif)
 
-Using
+Usage
 ====
 
 ```xml
@@ -33,7 +33,7 @@ Using
 </com.github.alexkolpa.fabtoolbar.FabToolbar>
 ```
 
-Hiding the toolbar should be done manually.
+To hide or show the Toolbar, simply call `hide()` and `show()`.
 
 ```java
 FabToolbar fabToolbar = ((FabToolbar) findViewById(R.id.fab_toolbar));
