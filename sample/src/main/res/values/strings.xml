@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">FAB Toolbar Sample</string>
+	<string name="button_clicked">Button was clicked</string>
+
+</resources>
