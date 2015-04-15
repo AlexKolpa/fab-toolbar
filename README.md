@@ -10,27 +10,40 @@ Using
 
 ```xml
 <com.github.alexkolpa.fabtoolbar.FabToolbar
-			android:id="@+id/fab_toolbar"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:layout_gravity="bottom"
-			tb:tb_animation_duration="500"
-			tb:tb_button_gravity="end"
-			tb:tb_container_gravity="center"
-			>
+	android:id="@+id/fab_toolbar"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_gravity="bottom"
+	tb:tb_animation_duration="500"
+	tb:tb_button_gravity="end"
+	tb:tb_container_gravity="center"
+	>
 
-		<ImageView
-				android:id="@+id/attach"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:src="@drawable/ic_attachment_white_48dp"
-				android:layout_marginLeft="@dimen/icon_margin"
-				android:layout_marginRight="@dimen/icon_margin"
-				/>
+	<ImageView
+		android:id="@+id/attach"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/ic_attachment_white_48dp"
+		android:layout_marginLeft="@dimen/icon_margin"
+		android:layout_marginRight="@dimen/icon_margin"
+		/>
 
 	<!-- More buttons can be added here -->
 
-	</com.github.alexkolpa.fabtoolbar.FabToolbar>
+</com.github.alexkolpa.fabtoolbar.FabToolbar>
+```
+
+Hiding the toolbar should be done manually.
+
+```java
+FabToolbar fabToolbar = ((FabToolbar) findViewById(R.id.fab_toolbar));
+
+findViewById(R.id.attach).setOnClickListener(new View.OnClickListener() {
+	public void onClick(View v) {
+		fabToolbar.hide();
+	}
+});
+
 ```
 
 How to add dependency
