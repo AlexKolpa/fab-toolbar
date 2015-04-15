@@ -40,3 +40,6 @@ dependencies {
     compile 'com.github.ozodrukh:CircularReveal:1.0.5'
     compile 'com.melnykov:floatingactionbutton:1.3.0'
 }
+
+
+apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'
