@@ -2,7 +2,7 @@
 <resources>
 	<declare-styleable name="FabToolbar">
 		<attr name="tb_color" format="color"/>
-		<attr name="tb_anim_duration" format="float"/>
+		<attr name="tb_anim_duration" format="integer"/>
 		<attr name="tb_button_gravity" format="enum">
 			<enum name="start" value="0"/>
 			<enum name="center" value="1"/>
