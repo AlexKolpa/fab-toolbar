@@ -52,7 +52,7 @@ Adding dependencies
 Gradle:
 ```groovy
 dependencies {
-	compile 'com.github.alexkolpa:floating-action-button-toolbar:0.5.0'
+	compile 'com.github.alexkolpa:floating-action-button-toolbar:0.5.1'
 }
 ```
 
@@ -61,7 +61,7 @@ Maven:
 <dependency>
 	<groupId>com.github.alexkolpa</groupId>
 	<artifactId>floating-action-button-toolbar</artifactId>
-	<version>0.5.0</version>
+	<version>0.5.1</version>
 </dependency>
 ```
 
