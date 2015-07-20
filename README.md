@@ -16,7 +16,7 @@ Usage
 	android:layout_width="match_parent"
 	android:layout_height="wrap_content"
 	android:layout_gravity="bottom"
-	tb:tb_animation_duration="500"
+	tb:tb_anim_duration="500"
 	tb:tb_button_gravity="end"
 	tb:tb_container_gravity="center"
 	>
